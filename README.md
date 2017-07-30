@@ -4,7 +4,7 @@ Scaffolding code for Cyberus project (to be updated end August)
 Cyberus is a small skeleton package to manage sensor/motor/navigation functions for the Cyberus mobile robot project. You can use this as a scaffolding to build up your own (more sophisticated) navigation code for the robots.
 Cyberus uses the Adafruit R-PI motor hat, Realsense Python wrapper (pyrealsense), and some small generic ultrasonic sensors. Resources for setting these up can be found at the bottom of the ReadMe.
 
-An example control code demonstrates how to adjust motor speeds based on feedback from the RGBD sensor:
+The cyberus_control_demo.py script demonstrates how to adjust motor speeds based on feedback from the RGBD sensor:
 
 *Example high level control* 
 The robot tries to keep moving forward at a steady speed, while avoiding obstacles. The image processing subfunctions return an error metric (yaw_error) which is proportional to the angular distance between the desired heading and the current heading. To steer, a proportional-derivative function translates this heading error into desired wheel speeds. To reduce processor load and oversteering, the heading error is only sampled every five frames.
