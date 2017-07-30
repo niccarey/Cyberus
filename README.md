@@ -1,7 +1,8 @@
 # Cyberus
 Scaffolding code for Cyberus project (to be updated end August)
 
-Cyberus is a small skeleton package to manage sensor/motor/navigation functions for the Cyberus mobile robot project. It uses the Adafruit R-PI motor hat, Realsense Python wrapper (pyrealsense), and some small generic ultrasonic sensors. Resources for setting these up can be found at the bottom of the ReadMe.
+Cyberus is a small skeleton package to manage sensor/motor/navigation functions for the Cyberus mobile robot project. You can use this as a scaffolding to build up your own (more sophisticated) navigation code for the robots.
+Cyberus uses the Adafruit R-PI motor hat, Realsense Python wrapper (pyrealsense), and some small generic ultrasonic sensors. Resources for setting these up can be found at the bottom of the ReadMe.
 
 An example control code demonstrates how to adjust motor speeds based on feedback from the RGBD sensor:
 
